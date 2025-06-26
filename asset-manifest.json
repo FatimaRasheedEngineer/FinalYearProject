@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/FatimaRasheedEngineer/FinalYearProject/static/css/main.c332e755.css",
-    "main.js": "/FatimaRasheedEngineer/FinalYearProject/static/js/main.013f1e60.js",
+    "main.css": "/FatimaRasheedEngineer/FinalYearProject/static/css/main.030bee44.css",
+    "main.js": "/FatimaRasheedEngineer/FinalYearProject/static/js/main.1aae7e11.js",
     "static/js/453.42a35d79.chunk.js": "/FatimaRasheedEngineer/FinalYearProject/static/js/453.42a35d79.chunk.js",
     "static/media/hotel1.jpg": "/FatimaRasheedEngineer/FinalYearProject/static/media/hotel1.378a75d8a26b068d650a.jpg",
     "static/media/person2.jpg": "/FatimaRasheedEngineer/FinalYearProject/static/media/person2.36efef9476d8951a2e97.jpg",
     "static/media/hotel2.jpg": "/FatimaRasheedEngineer/FinalYearProject/static/media/hotel2.7be4972743ad724f4451.jpg",
     "static/media/tech.jpg": "/FatimaRasheedEngineer/FinalYearProject/static/media/tech.0f2d6d308379d7378a58.jpg",
     "index.html": "/FatimaRasheedEngineer/FinalYearProject/index.html",
-    "main.c332e755.css.map": "/FatimaRasheedEngineer/FinalYearProject/static/css/main.c332e755.css.map",
-    "main.013f1e60.js.map": "/FatimaRasheedEngineer/FinalYearProject/static/js/main.013f1e60.js.map",
+    "main.030bee44.css.map": "/FatimaRasheedEngineer/FinalYearProject/static/css/main.030bee44.css.map",
+    "main.1aae7e11.js.map": "/FatimaRasheedEngineer/FinalYearProject/static/js/main.1aae7e11.js.map",
     "453.42a35d79.chunk.js.map": "/FatimaRasheedEngineer/FinalYearProject/static/js/453.42a35d79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c332e755.css",
-    "static/js/main.013f1e60.js"
+    "static/css/main.030bee44.css",
+    "static/js/main.1aae7e11.js"
   ]
 }
