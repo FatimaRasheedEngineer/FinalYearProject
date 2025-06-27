@@ -20,10 +20,8 @@ const Hero = () => {
 
   return (
     <section
-      className="relative bg-cover bg-center py-32"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/placeholder.svg?height=600&width=1200')`,
-      }}
+      className="relative bg-cover bg-gradient-to-r from-orange-500 to-teal-600 bg-center py-32"
+     
     >
       <div className="container mx-auto px-4 text-center text-white">
         <div className="animate-fade-in-up">
