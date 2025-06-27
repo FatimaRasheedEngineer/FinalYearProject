@@ -76,13 +76,13 @@ function Categories() {
     )
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50" > 
       <section className="bg-gradient-to-r from-orange-500 to-teal-600 py-16 text-white text-center">
         <h1 className="text-5xl font-bold mb-4">Business Categories</h1>
         <p className="text-xl">Explore businesses by category</p>
       </section>
 
-      <section className="py-8 bg-white shadow-sm">
+      <section className="py-8 bg-white shadow-sm" > 
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex flex-wrap gap-2">
             <button
@@ -116,7 +116,7 @@ function Categories() {
         </div>
       </section>
 
-      <section className="py-12">
+      <section className="py-12" data-aos="fade-up">
         <div className="max-w-6xl mx-auto px-4">
           {filteredCategories.map((cat) => (
             <div key={cat.name} className="mb-12">
@@ -125,7 +125,7 @@ function Categories() {
                 {cat.name} <span className="text-orange-500">({cat.count})</span>
               </h2>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up">
                 {filteredBusinesses(cat.businesses).map((b, i) => (
                   <div
                     key={i}

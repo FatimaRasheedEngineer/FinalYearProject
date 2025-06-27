@@ -65,11 +65,11 @@ const Contact = () => {
       </section>
 
       {/* Contact Form & Info */}
-      <section className="py-20 bg-stone-100">
+      <section className="py-20 bg-stone-100" >
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div className="bg-white rounded-lg shadow-lg p-8">
+            <div className="bg-white rounded-lg shadow-lg p-8"data-aos="fade-right">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Send us a Message</h2>
 
               {submitMessage && (
@@ -165,7 +165,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Info */}
-            <div className="space-y-8">
+            <div className="space-y-8" data-aos="fade-left">
               <div>
                 <h2 className="text-3xl font-bold text-gray-800 mb-6">Get in Touch</h2>
                 <p className="text-gray-600 text-lg mb-8">
@@ -197,7 +197,7 @@ const Contact = () => {
       </section>
 
       {/* Map Section (Updated) */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white" data-aos="fade-up">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Find Us</h2>
@@ -226,7 +226,7 @@ const Contact = () => {
             <p className="text-gray-600 max-w-2xl mx-auto">Quick answers to common questions</p>
           </div>
 
-          <div className="max-w-3xl mx-auto space-y-6">
+          <div className="max-w-3xl mx-auto space-y-6" data-aos="fade-up">
             {[
               {
                 q: "How do I list my business?",

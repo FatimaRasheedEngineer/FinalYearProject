@@ -169,7 +169,7 @@ function Pages() {
         <div className="max-w-6xl mx-auto px-4">
           {/* About Us */}
           {activeTab === "about" && (
-            <div className="bg-white rounded-lg shadow-lg p-8">
+            <div className="bg-white rounded-lg shadow-lg p-8" data-aos="fade-up">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">About Our Directory</h2>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div>

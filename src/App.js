@@ -1,4 +1,8 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -12,7 +16,14 @@ import Register from "./pages/Register";
 import BusinessDetail from "./pages/BusinessDetail";
 import "./App.css";
 
+
 function App() {
+    useEffect(() => {
+    AOS.init({
+      duration: 1000, // animation duration (in ms)
+      once: true,     // whether animation should happen only once
+    });
+  }, []);
   return (
     <Router>
       <div className="App">

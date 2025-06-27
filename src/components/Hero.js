@@ -21,7 +21,7 @@ const Hero = () => {
   return (
     <section
       className="relative bg-cover bg-gradient-to-r from-orange-500 to-teal-600 bg-center py-32"
-     
+     data-aos="fade-up"
     >
       <div className="container mx-auto px-4 text-center text-white">
         <div className="animate-fade-in-up">
