@@ -4,8 +4,8 @@ const CTASection = () => {
   }
 
   return (
-    <section className="py-20 bg-teal-600 text-white">
-      <div className="container mx-auto px-4 text-center">
+    <section className="py-20 bg-teal-600 text-white" >
+      <div className="container mx-auto px-4 text-center" data-aos="fade-in">
         <h2 className="text-4xl font-bold mb-6">Ready to List Your Business?</h2>
         <p className="text-xl mb-8 max-w-2xl mx-auto">Join thousands of businesses already listed in our directory</p>
         <button

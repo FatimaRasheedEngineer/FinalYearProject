@@ -21,8 +21,8 @@ const NewsletterSignup = () => {
   }
 
   return (
-    <section className="py-20 bg-gradient-to-r from-orange-500 to-teal-600 text-white">
-      <div className="container mx-auto px-4 text-center">
+    <section className="py-20 bg-gradient-to-r from-orange-400 to-teal-600 text-white" >
+      <div className="container mx-auto px-4 text-center" data-aos="fade-up">
         <div className="max-w-2xl mx-auto">
           <Mail className="w-16 h-16 mx-auto mb-6" />
           <h2 className="text-4xl font-bold mb-4">Stay Updated</h2>

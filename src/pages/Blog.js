@@ -109,7 +109,7 @@ function Blog() {
                 onClick={() => setSelectedCategory(category)}
                 className={`px-4 py-2 rounded-full transition-colors ${
                   selectedCategory === category
-                    ? "bg-purple-500 text-white"
+                    ? "bg-orange-400 text-white"
                     : "bg-gray-200 text-gray-700 hover:bg-purple-100"
                 }`}
               >
@@ -128,7 +128,7 @@ function Blog() {
             className="bg-white rounded-lg shadow-xl overflow-hidden cursor-pointer hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
           >
             <div className="md:flex">
-              <div className="md:w-1/3 bg-gradient-to-br from-orange-200 to-red-200 flex items-center justify-center p-12">
+              <div className="md:w-1/3 bg-gradient-to-br from-orange-200 to-teal-200 flex items-center justify-center p-12">
                 <span className="text-8xl">{featuredPost.image}</span>
               </div>
               <div className="md:w-2/3 p-8">
@@ -151,7 +151,7 @@ function Blog() {
                   >
                     By {featuredPost.author}
                   </button>
-                  <button className="bg-purple-500 text-white px-6 py-2 rounded-lg hover:bg-purple-600 transition-colors">
+                  <button className="bg-orange-500 text-white px-6 py-2 rounded-lg hover:bg-purple-600 transition-colors">
                     Read More →
                   </button>
                 </div>
@@ -166,14 +166,14 @@ function Blog() {
           <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
             {selectedCategory === "All" ? "Latest Posts" : selectedCategory + " Posts"}
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredPosts.slice(1).map((post) => (
               <div
                 key={post.id}
                 onClick={() => navigate(`/blog/${post.id}`)}
-                className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+                className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer "
               >
-                <div className="h-48 bg-gradient-to-br from-purple-200 to-pink-200 flex items-center justify-center">
+                <div className="h-48 bg-gradient-to-br from-orange-200 to-teal-200 flex items-center justify-center">
                   <span className="text-6xl">{post.image}</span>
                 </div>
                 <div className="p-6">

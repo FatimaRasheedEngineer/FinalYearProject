@@ -20,10 +20,10 @@ const Hero = () => {
 
   return (
     <section
-      className="relative bg-cover bg-gradient-to-r from-orange-500 to-teal-600 bg-center py-32"
-     data-aos="fade-up"
+      className="relative bg-cover bg-gradient-to-r from-orange-400 to-teal-500 bg-center py-32"
+    
     >
-      <div className="container mx-auto px-4 text-center text-white">
+      <div className="container mx-auto px-4 text-center text-white"  data-aos="fade-up">
         <div className="animate-fade-in-up">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             WE <span className="text-orange-400">HELP</span> YOU TO
@@ -33,8 +33,7 @@ const Hero = () => {
             <span className="text-orange-400">DIRECTORY</span>
           </h2>
           <p className="text-xl mb-12 max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Find the best businesses in your area with our
-            comprehensive directory.
+       Find businesses you can trust,verified, reliable, and committed to quality. Explore a network built for professionals who value excellence and results.
           </p>
         </div>
 
